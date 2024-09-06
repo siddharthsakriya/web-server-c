@@ -16,6 +16,8 @@ struct Server
 
     struct sockaddr_in address;
 
+    int sock; 
+
     /* decl of a function pointer */
     void (*launch)(void);
 
